@@ -2,7 +2,7 @@
 
 > **Read first.** Canonical agent context for this repo (Claude Code, Codex, Cursor all read this — `CLAUDE.md` bridges here). Verify technical claims against the code before relying on them.
 >
-> **At session start, also read `memory/MEMORY.md`** — the index of everything Kai has learned (lessons, edge cases, anti-patterns). It tells you which topic files to read for the task at hand.
+> **No início da sessão, leia também `memory/MEMORY.md` e `marketing/memory/README.md`** — o primeiro arquivo é o índice de aprendizado do Kai; o segundo é a memória de marketing desta empresa. Leia `marketing/OPERATING_SYSTEM.md` antes de trabalhar em estratégia, pesquisa de produto, conteúdo, calendário, análise de resultados ou campanhas.
 
 Kai is a **marketing-native agent runtime**. This repo holds the knowledge base and content pipeline, but the product center is broader:
 
@@ -11,6 +11,21 @@ Kai is a **marketing-native agent runtime**. This repo holds the knowledge base 
 - `scripts/content/engine.py` is the content outcome engine
 - `scripts/quality/` is the quality/policy layer
 - `gateway/` is the remote runner and connector surface
+
+## Camada de Marketing da Empresa
+
+Este workspace está configurado para um agente de marketing em português brasileiro, atuando como um departamento completo: pesquisa, validação de produtos, inteligência de concorrentes, estratégia de conteúdo, Reels, carrosséis, Stories, copywriting, análise de dados, calendários, experimentos e ciclos de aprendizado.
+
+Os arquivos principais da empresa ficam em `marketing/`:
+
+- `marketing/OPERATING_SYSTEM.md` — regras operacionais adaptadas do prompt Marketing OS do usuário.
+- `marketing/strategy/BRAND.md` — identidade da marca, voz, posicionamento e regras do que fazer ou evitar.
+- `marketing/strategy/AUDIENCE.md` — público, dores, desejos, objeções e linguagem.
+- `marketing/products/products.csv` — banco principal de produtos quando houver dados de produto.
+- `marketing/content/ideas/ideas.csv` — banco de ideias e status de produção.
+- `marketing/analytics/TESTS.md`, `marketing/analytics/LEARNINGS.md`, `marketing/analytics/WINNERS.md`, `marketing/analytics/CONTENT_HISTORY.md` — memória de experimentos e performance.
+
+Antes de produzir conteúdo, consulte os arquivos relevantes da empresa. Se faltarem fatos, declare a hipótese adotada, marque para validação e prossiga somente quando essa hipótese não mudar substancialmente o trabalho. Nunca invente preços, avaliações, volume de vendas, comissões, métricas de plataforma, escassez, prova social ou tendências.
 
 <!-- capability-counts:start -->
 Inventory reachable from here: 57 skill directories, 55 canonical `kai-*` skills (each with a goal-oriented v2 counterpart), 50 public `/kai` router commands, 67 playbook docs, 37 checklists, 38 framework docs, 31 channel guides, 8 audience persona profiles, 37 harness references, and 36 skill contracts.

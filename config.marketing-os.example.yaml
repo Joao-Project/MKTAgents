@@ -1,0 +1,64 @@
+# Configuração do Marketing OS para esta empresa.
+# Copie para config.yaml quando for conectar canais reais ou credenciais.
+
+empresa:
+  nome: "Achadinhos do Bebê"
+  mercado: "Produtos infantis e maternidade"
+  idioma: "pt-BR"
+  timezone: "America/Sao_Paulo"
+
+padroes_operacionais:
+  fontes_principais:
+    marca: "marketing/strategy/BRAND.md"
+    publico: "marketing/strategy/AUDIENCE.md"
+    produtos: "marketing/products/products.csv"
+    ideias: "marketing/content/ideas/ideas.csv"
+    testes: "marketing/analytics/TESTS.md"
+    aprendizados: "marketing/analytics/LEARNINGS.md"
+    vencedores: "marketing/analytics/WINNERS.md"
+    historico_de_conteudo: "marketing/analytics/CONTENT_HISTORY.md"
+  exigir_briefing_antes_de_conteudo: true
+  preservar_links_afiliados: true
+  idioma_padrao: "pt-BR"
+
+objetivos_de_conteudo:
+  - descoberta
+  - relacionamento
+  - autoridade
+  - desejo
+  - conversao
+
+pontuacao_de_produtos:
+  dimensoes:
+    - produto
+    - demanda
+    - apelo_visual
+    - potencial_de_conteudo
+    - potencial_de_conversao
+    - diferenciacao
+    - facilidade_de_comunicacao
+  classificacao:
+    prioridade_maxima: "9-10"
+    excelente: "8-8,9"
+    bom_teste: "7-7,9"
+    testar_apenas_com_bom_angulo: "5-6,9"
+    baixa_prioridade: "abaixo de 5"
+
+canais:
+  instagram:
+    formatos:
+      - reels
+      - carrossel
+      - stories
+      - post_estatico
+  tiktok:
+    formatos:
+      - video_curto
+  youtube:
+    formatos:
+      - shorts
+      - video_longo
+  email:
+    formatos:
+      - campanha
+      - newsletter
