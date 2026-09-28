@@ -99,6 +99,9 @@ REQUIRED_PATHS = [
 INSTRUCTION_CHAIN_PATHS = [
     "AGENTS.md",
     "CLAUDE.md",
+    "docs/system/referencia-agente-completa.md",
+    "docs/system/economia-de-contexto.md",
+    "scripts/contexto.py",
     ".claude/rules/architecture-and-memory.md",
     ".claude/rules/scripts-and-tools.md",
     "memory/MEMORY.md",
@@ -120,12 +123,14 @@ INSTRUCTION_CHAIN_PATHS = [
 # skipped; so are globs, ellipses, and command arguments.
 REFERENCED_DOCS = [
     "AGENTS.md",
+    "docs/system/referencia-agente-completa.md",
     ".claude/rules/architecture-and-memory.md",
     ".claude/rules/scripts-and-tools.md",
 ]
 
 # Scripts that must at least compile on a fresh clone (no credentials needed).
 COMPILE_PATHS = [
+    "scripts/contexto.py",
     "scripts/quality_gates/banned_word_check.py",
     "scripts/quality_gates/seo_lint.py",
     "scripts/quality_gates/gate_logger.py",

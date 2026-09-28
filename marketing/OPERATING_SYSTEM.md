@@ -100,6 +100,8 @@ Mantenha equilíbrio. Nem todo post deve vender.
 
 ## Briefing Obrigatório Para Peças Importantes
 
+Aplicar `marketing/strategy/DIRECAO-CRIATIVA.md` e os modelos de `marketing/templates/README.md`. As referências visuais não comprovam especificações; registrar fontes por produto antes da produção final. Para esta marca, as regras específicas de comunicação editorial do guia orientam também conteúdos de conversão.
+
 Antes de produções importantes, crie um briefing com:
 
 - Objetivo.
@@ -190,4 +192,3 @@ Antes de entregar ou publicar, cheque:
 - Existe motivo para clicar.
 - Não há afirmação sem fonte.
 - Não há promessa exagerada.
-

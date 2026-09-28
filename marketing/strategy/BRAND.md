@@ -372,6 +372,8 @@ Também evitar excesso de:
 
 # 16. Identidade visual
 
+Padrão de produção atualizado em 22/09/2026: consultar [DIRECAO-CRIATIVA.md](DIRECAO-CRIATIVA.md), que detalha estas orientações com as referências fornecidas pelo usuário. Carrosséis em 1080 × 1080 px, produto fiel à referência, curadoria em voz de marca e ausência de preços e marketplaces nas peças editoriais. Informações comerciais ficam no destino do link; preservar identificação de afiliado no conteúdo aplicável.
+
 ## Direção estética
 
 A identidade deve transmitir:
